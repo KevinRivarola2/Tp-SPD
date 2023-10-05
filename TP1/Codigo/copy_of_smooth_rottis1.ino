@@ -20,7 +20,6 @@ int reset_actual = 1;
 int sumar_anterior = 1;
 int restar_anterior = 1;
 int reset_anterior = 1;
-int segundos = 0;
 
 
 
@@ -96,6 +95,10 @@ void prender_display(int display){
     digitalWrite(DISPLAY_DECENA, LOW);
     delay(10);
   }
+  else{
+    digitalWrite(DISPLAY_UNIDAD, LOW); 
+    digitalWrite(DISPLAY_DECENA, LOW); 
+  } 
 }
 
 void mostrar_digito(int digito){
