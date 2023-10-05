@@ -39,8 +39,6 @@ void setup()
   pinMode(LED_E, OUTPUT);
   pinMode(LED_F, OUTPUT);
   pinMode(LED_G, OUTPUT);
-  digitalWrite(DISPLAY_UNIDAD, HIGH);
-  digitalWrite(DISPLAY_DECENA, HIGH);
 }
 
 //Funcion principal
