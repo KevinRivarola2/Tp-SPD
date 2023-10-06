@@ -230,7 +230,6 @@ int determinar_boton_presionado(){
     reset_anterior = reset_actual;
     return BOTON_RESET;
   }
-  return 0;  
 }
 
   
